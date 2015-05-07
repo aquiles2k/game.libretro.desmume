@@ -23,7 +23,7 @@
 
 Special thanks to: yopyop (original author of DeSmuME), for releasing the source code of this great emulator; Martin Korth (author of GBATEK), for his well-written Gameboy Advance and Nintendo DS documentation.
 
-Source: https://github.com/libretro/desmume-libretro</description>
+Source: https://github.com/libretro/desmume</description>
 		<platform>all</platform>
 	</extension>
 </addon>

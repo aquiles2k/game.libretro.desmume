@@ -30,9 +30,10 @@ endif()
 
 include(ExternalProject)
 externalproject_add(desmume
-                    GIT_REPOSITORY https://github.com/libretro/desmume-libretro
-                    GIT_TAG 40f9af5
+                    GIT_REPOSITORY https://github.com/aquiles2k/desmume
+                    GIT_TAG b6a6783
                     PREFIX desmume
+                    PATCH_COMMAND cmake -E copy_directory ${PROJECT_BINARY_DIR}/desmume/src/desmume/desmume ${PROJECT_BINARY_DIR}/desmume/src/desmume
                     CONFIGURE_COMMAND ""
                     INSTALL_COMMAND ""
                     BUILD_COMMAND ${BUILD_COMMAND}
